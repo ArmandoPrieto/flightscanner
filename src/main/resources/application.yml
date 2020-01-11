@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: flightscanner
+endpoints:
+  beans:
+    enabled: true
+    sensitive: false
+
+
