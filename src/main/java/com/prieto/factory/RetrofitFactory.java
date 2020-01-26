@@ -1,4 +1,4 @@
-package com.prieto.factories;
+package com.prieto.factory;
 
 import com.prieto.Repository;
 import io.micronaut.context.annotation.Factory;

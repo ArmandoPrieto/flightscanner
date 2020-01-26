@@ -1,4 +1,6 @@
-package com.prieto;
+package com.prieto.model.response;
+
+import com.prieto.model.StockIndex;
 
 import java.util.List;
 

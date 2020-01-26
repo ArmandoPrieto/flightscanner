@@ -1,4 +1,4 @@
-package com.prieto;
+package com.prieto.model;
 
 public class StockIndex {
 

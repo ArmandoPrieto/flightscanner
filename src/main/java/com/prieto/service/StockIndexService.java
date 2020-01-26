@@ -1,5 +1,7 @@
-package com.prieto;
+package com.prieto.service;
 
+import com.prieto.Repository;
+import com.prieto.model.response.StockIndexResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
