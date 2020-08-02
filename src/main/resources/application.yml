@@ -5,5 +5,8 @@ endpoints:
   beans:
     enabled: true
     sensitive: false
-
+repository:
+  api:
+    key: ${STOCK_API_KEY}
+    url: ${STOCK_API_URL:`http://api.marketstack.com/v1/`}
 

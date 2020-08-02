@@ -34,7 +34,7 @@ public class Loader implements ApplicationEventListener<ServiceStartedEvent> {
     @Override
     @Async
     public void onApplicationEvent(ServiceStartedEvent event) {
-        //LOADING StockIndex
+       /*
         StockIndexService service = retrofit.create(StockIndexService.class);
         Call<StockIndexResponse> callSync = service.getStockIndex();
 
@@ -78,6 +78,6 @@ public class Loader implements ApplicationEventListener<ServiceStartedEvent> {
             ex.printStackTrace();
         }
 
-
+        */
     }
 }

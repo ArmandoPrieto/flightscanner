@@ -1,9 +1,27 @@
 package com.prieto;
 
+import io.micronaut.context.annotation.ConfigurationProperties;
+import io.micronaut.runtime.ApplicationConfiguration;
+
+@ConfigurationProperties("repository.api")
 public class Repository {
 
-    public static final String API_KEY = "a027bda5d8e7b3221e45105800a08357";
-    public static final String API_URL = "http://api.marketstack.com/v1/";
+    private String key;
+    private String url;
 
+    public String getKey() {
+        return key;
+    }
 
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 }
