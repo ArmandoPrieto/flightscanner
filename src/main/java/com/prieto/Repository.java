@@ -2,8 +2,8 @@ package com.prieto;
 
 public class Repository {
 
-    public static final String API_KEY = "mmY0XwJGgpcuL5SlcCSUGnBOB6eXJ7W2iTbvaCs6axDlGINj5KvIsyMUWfka";
-    public static final String API_URL = "https://api.worldtradingdata.com/api/v1/";
+    public static final String API_KEY = "a027bda5d8e7b3221e45105800a08357";
+    public static final String API_URL = "http://api.marketstack.com/v1/";
 
 
 }

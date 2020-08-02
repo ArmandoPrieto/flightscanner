@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 
 public interface StockCurrencyService {
 
-    @GET("forex?base=USD&api_token=" + Repository.API_KEY)
+    @GET("currencies?base=USD&access_key=" + Repository.API_KEY)
     Call<StockCurrencyResponse> getStockCurrency();
 
 }

@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 
 public interface StockExchangeService {
 
-    @GET("exchange_list?api_token=" + Repository.API_KEY)
+    @GET("exchanges?access_key=" + Repository.API_KEY)
     Call<StockExchangeResponse> getStockExchange();
 }

@@ -2,33 +2,17 @@ package com.prieto.model.response;
 
 import com.prieto.model.StockCurrency;
 
+import java.util.List;
+
 public class StockCurrencyResponse {
 
-    String symbolsReturned;
-    String base;
-    StockCurrency data;
+    private List<StockCurrency> data;
 
-    public String getSymbolsReturned() {
-        return symbolsReturned;
-    }
-
-    public void setSymbolsReturned(String symbolsReturned) {
-        this.symbolsReturned = symbolsReturned;
-    }
-
-    public String getBase() {
-        return base;
-    }
-
-    public void setBase(String base) {
-        this.base = base;
-    }
-
-    public StockCurrency getData() {
+    public List<StockCurrency> getData() {
         return data;
     }
 
-    public void setData(StockCurrency data) {
+    public void setData(List<StockCurrency> data) {
         this.data = data;
     }
 }
