@@ -1,7 +1,6 @@
 package com.prieto;
 
 import io.micronaut.context.annotation.ConfigurationProperties;
-import io.micronaut.runtime.ApplicationConfiguration;
 
 @ConfigurationProperties("repository.api")
 public class Repository {

@@ -9,6 +9,12 @@ public class StockCurrency {
     String symbol;
     String name;
 
+    public StockCurrency(String code, String symbol, String name) {
+        this.code = code;
+        this.symbol = symbol;
+        this.name = name;
+    }
+
     public String getCode() {
         return code;
     }
