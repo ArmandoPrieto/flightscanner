@@ -13,3 +13,5 @@ out/
 .classpath
 /bin/
 /.vscode/
+
+src/main/resources/api-credentials.txt

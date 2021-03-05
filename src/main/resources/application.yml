@@ -1,6 +1,10 @@
 micronaut:
   application:
     name: flightscanner
+  server:
+    cors:
+      enabled: true
+    port: 8080
 endpoints:
   beans:
     enabled: true
@@ -9,4 +13,5 @@ repository:
   api:
     key: ${STOCK_API_KEY}
     url: ${STOCK_API_URL:`http://api.marketstack.com/v1/`}
+
 
